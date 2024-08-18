@@ -1,6 +1,8 @@
 import { decrypt, encrypt } from "ethereum-cryptography/aes";
 import { hexToBytes, toHex } from "ethereum-cryptography/utils";
 import { deepStrictEqual, rejects } from "./assert";
+import { describe, it } from "micro-should";
+
 // Test vectors taken from https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38a.pdf
 const TEST_VECTORS = [
   {

@@ -1,6 +1,7 @@
 import { getRandomBytes, getRandomBytesSync } from "ethereum-cryptography/random";
 import { equalsBytes } from "ethereum-cryptography/utils";
 import { deepStrictEqual } from "./assert";
+import { describe, it } from "micro-should";
 
 describe("Random number generation", () => {
   describe("Sync version", () => {

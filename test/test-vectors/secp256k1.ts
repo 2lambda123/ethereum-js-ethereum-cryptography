@@ -1,5 +1,6 @@
 import { secp256k1 } from "ethereum-cryptography/secp256k1";
 import { deepStrictEqual } from "./assert";
+import { describe, it } from "micro-should";
 
 describe("secp256k1", () => {
   it("should verify msg bb5a...", async () => {
